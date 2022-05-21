@@ -1,1 +1,72 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+:root {
+    --azul-header: #2F4F4F;
+    --verde-main: #2E8B57
+}
+
+* {
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0%;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+html,
+body {
+    background-color: var(--verde-main);
+    ;
+}
+
+header {
+    background-color: #2F4F4F;
+    color: var(--white);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ;
+}
+
+header button {
+    font-size: 1.5rem;
+}
+
+header img {
+    width: 1.5rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+nav a {
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.iwt {
+    display: block;
+}
